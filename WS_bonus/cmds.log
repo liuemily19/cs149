@@ -1,0 +1,14 @@
+  388  pwd
+  389  cd ~
+  390  cd Desktop/
+  391  ls -latr ; mkdir cs149 ; cd cs149
+  392  git init
+  393  git remote add origin https://github.com/liuemily19/cs149.git
+  394  git config --global user.email "liuemily19@gmail.com"
+  395  git config --global user.name "liuemily19"
+  396  mkdir WS_bonus
+  397  cd WS_bonus
+  398  git add .
+  399  wget -O out.pdf http://tinyurl.com/yy94jltt
+  400  ls -latr
+  401  history > cmds.log
