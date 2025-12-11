@@ -1,0 +1,29 @@
+  403  cd ..
+  404  git add WS_bonus/cmds.log
+  405  git commit -m "First commit"
+  406  git push -u origin main
+  407  git pull origin main --rebase
+  408  git push -u origin main
+  409  cd ~
+  410  git clone git://g.csail.mit.edu/xv6-labs-2023
+  411  cd xv6-labs-2023
+  412  nano user/usertests.c
+  413  make qemu
+  414  cd xv6-labs-2023
+  415  cd xv6-labs-2023/user
+  416  nano sleep.c
+  417  cd xv6-labs-2023
+  418  nano user/echo.c
+  419  nano user/sleep.c
+  420  nano Makefile
+  421  make qemu
+  422  cd xv6-labs-2023
+  423  cmd test user/sleep.c
+  424  cmd test sleep.c
+  425  cd user
+  426  cmd test sleep.c
+  427  nano sleep.c
+  428  ./grade-lab-util sleep
+  429  cd ..
+  430  ./grade-lab-util sleep
+  431  history > worksheet1.log
